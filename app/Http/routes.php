@@ -13,3 +13,4 @@
 
 Route::get("/produtos", "ProdutoController@listar");
 Route::get("/produtos/mostrar/{id}", "ProdutoController@mostrar")->where('id', '[0-9]+');
+Route::get("/produtos/novo","ProdutoController@novo");
