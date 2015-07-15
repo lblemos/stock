@@ -11,7 +11,8 @@
 				<a class="navbar-brand" href="/produtos"> Stock </a>
 			</div>
 			<ul class="nav navbar-nav">
-				<li><a href="/produtos">Listagem</a></li>
+				<li><a href="{{action('ProdutoController@listar')}}">Listagem</a></li>
+				<li><a href="{{action('ProdutoController@novo')}}">Novo</a></li>
 			</ul>
 		</div>
 	</nav>
